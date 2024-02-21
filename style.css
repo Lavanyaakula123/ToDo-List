@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Lobster",sans-serif;
+}
+body{
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh; 
+    background-image: url(oswego_sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* backdrop-filter: blur(3px); */
+}
+.container{
+    width: 500px;
+    height: 450px;
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+    box-shadow: 2px 3px 15px rgb(215, 137, 81);
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    color: rgb(97, 3, 3);
+}
+.container input{
+    font-size: medium;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: rgb(69, 23, 5);
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(220, 159, 98);
+    box-shadow: 2px 3px 3px rgb(72, 21, 21);
+   outline: none;
+}
+button{
+    padding: 10px 20px;
+    background-color: rgb(50, 173, 34);
+    border-radius: 20px;
+
+    color: rgb(255, 255, 255);
+   cursor: pointer;
+}
+::placeholder{
+    color: rgb(53, 13, 13);
+    font-size: 20px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    color: rgb(114, 25, 25);
+    margin:10px 0 ;
+    padding: 10px;
+    /* border: 1px solid rgb(31, 7, 4); */
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 21px;
+    box-shadow: 3px 4px 5px rgb(72, 21, 21);
+}
+.delete-btn{
+    background-color: rgb(219, 38, 18);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
